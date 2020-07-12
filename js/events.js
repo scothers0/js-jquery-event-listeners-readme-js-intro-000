@@ -11,14 +11,21 @@ function frameIt() {
   })
 }
 
-function pressIt() {
+function submitIt() {
   $('form').submit(function(){
     alert("Your form is going to be submitted now.");
   })
 }
 
-$(document).ready(function(){
+function pressIt() {
+  $(document).on
+}
 
+$(document).ready(function(){
+  getIt();
+  pressIt();
+  pressIt();
+  submitIt();
 // call functions here
 
 });
