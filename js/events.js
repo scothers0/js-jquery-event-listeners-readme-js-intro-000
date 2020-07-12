@@ -28,8 +28,9 @@ function pressIt() {
 $(document).ready(function(){
   getIt();
   pressIt();
-  pressIt();
+
   submitIt();
+  pressIt();
 // call functions here
 
 });
