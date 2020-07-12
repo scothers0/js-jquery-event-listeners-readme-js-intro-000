@@ -18,7 +18,11 @@ function submitIt() {
 }
 
 function pressIt() {
-  $(document).on
+  $('#g').on('keypress' , function(key){
+    if (key.which == 71){
+      alert("g was pressed");
+    }
+  })
 }
 
 $(document).ready(function(){
